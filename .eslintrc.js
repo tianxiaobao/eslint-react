@@ -1,5 +1,4 @@
 module.exports = {
-    root: true,
     // 环境
     "env": {
         "browser": true,
@@ -26,7 +25,7 @@ module.exports = {
     },
     // 插件
     "plugins": [
-        
+        "react"
     ],
     "settings": {
         "react": {
