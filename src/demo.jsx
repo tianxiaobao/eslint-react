@@ -1,5 +1,5 @@
 import React from "react";
 const b = () => {
-    return <div>12</div>;
+    return <div>2</div>;
 };
 export default b;

@@ -1,4 +1,4 @@
 function a() {
-    console.log(11);
+    console.log(1);
 }
 a();
