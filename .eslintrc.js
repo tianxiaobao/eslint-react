@@ -8,7 +8,7 @@ module.exports = {
         "jquery": true 
     },
     // 使用的扩展库
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:jsx-a11y/recommended"],
     // 全局变量
     "globals": {
         "$": true
@@ -25,7 +25,8 @@ module.exports = {
     },
     // 插件
     "plugins": [
-        "react"
+        "react",
+        "jsx-a11y"
     ],
     "settings": {
         "react": {
