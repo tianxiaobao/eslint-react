@@ -1,0 +1,34 @@
+{
+  "name": "eslint-react",
+  "version": "1.0.0",
+  "description": "eslint config of react",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.itcast.cn/tianxiaobao/eslint-react.git"
+  },
+  "keywords": [],
+  "author": "tianxiaobao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --color --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.11.0"
+  }
+}
